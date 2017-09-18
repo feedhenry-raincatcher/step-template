@@ -44,7 +44,7 @@ module.exports = {
 
 ## Definitions
 
-Definitions are required for the raincatcher-angularjs portal application to define a workflow step. Definitions are defined the `definitions.json` file which is directly linked to the angular directives names through the templates field. The name and description fields will be the step name and decription in the portal·
+Definitions are required for the raincatcher-angularjs portal application to define a workflow step. Definitions are defined the `definition.json` file which is directly linked to the angular directives names through the templates field. The name and description fields will be the step name and decription in the portal·
 
 ```json
 [
@@ -60,6 +60,7 @@ Definitions are required for the raincatcher-angularjs portal application to def
 ]
 ```
 
+> **Note:** File can contain array or object depending if your npm module provides one or more definitions. 
 
 ## Naming conventions
 
