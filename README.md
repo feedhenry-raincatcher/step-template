@@ -10,8 +10,8 @@ Steps are divided into two different categories:
 
 ### Module
 
-Can contain one or more angular directives for rendering steps
-RainCatcher steps using Angularjs directives to build feature rich UI as part of the workflow.
+Modules can contain one or more angular directives for rendering steps.
+RainCatcher steps use Angularjs directives to build feature rich UI as part of the workflow.
 Each step is divided into two types for directives:
 
 - Edit section
@@ -29,7 +29,7 @@ For example: `base.tpl.html`
 
 ### Definition
 
-Can contain step definition.
+Definition can contain step definition.
 It may be array of definitions when npm module provides more than one step.
 
 For example:
@@ -103,7 +103,7 @@ Add a email field to the ng-form div
 
 ```html
 <md-input-container class="md-block" flex-gt-sm>
-  <label>E.g. Last Name </label>
+  <label>Email </label>
   <input type="text" id="title" name="title" ng-model="ctrl.model.email" required>
 </md-input-container>
 ```    
@@ -123,7 +123,7 @@ Add a email field to `<md-list>` to the base template
   <md-divider></md-divider>
 </md-list-item>
 ```
-Notice how output `{{model.email}}` is directly link to `ng-model=ctrl.model.email` input on the form.
+Notice how output `{{model.email}}` is directly linked to `ng-model=ctrl.model.email` input on the form.
 
 HTML templates are written with [angular.js](https://angularjs.org/).
 
@@ -131,14 +131,14 @@ Once the html templates are edited you need to use grunt to build using [wfmTemp
 
     grunt wfmTemplate:build
 
-Package name can be customized via the package.json
+Package name can be customised via the package.json
 
 ---
 
 # Adding a step to raincatcher-angularjs 
 
 ## Add step to mobile application
-Add step to mobiles package.json as a package demo/mobile/package.json
+Add step to mobiles package.json as a package `demo/mobile/package.json`
 ```javascript 
     "@raincatcher/step-base": "0.0.1",
 ```
