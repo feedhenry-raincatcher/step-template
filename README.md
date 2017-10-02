@@ -132,6 +132,8 @@ Once the html templates are edited you need to use grunt to build using [wfmTemp
 
     grunt wfmTemplate:build
 
+alternatively you can run `npm run watch` to rebuild the step automatically on all changes.
+
 Package name can be customised via the package.json
 
 ---
