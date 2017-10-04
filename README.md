@@ -66,7 +66,7 @@ Definitions are required for the raincatcher-angularjs portal application to def
 
 What naming conventions 
 - Angular directive uses camel case e.g. `baseForm` 
-- File name and `definition.json` use hifen e.g. 
+- File name and `definition.json` use hypens e.g. 
 
 file: 
     
